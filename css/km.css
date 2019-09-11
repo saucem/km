@@ -1,0 +1,54 @@
+/*Estilos de personalización del sitio*/
+
+body{
+    font-family: "Varela Round", sans-serif;
+}
+
+
+.image-holder{
+	/*height: 60vh;*/
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.overlay-box{
+	background-color: white;
+}
+
+.card{
+	border: none;
+	border-radius: 0;
+}
+
+
+/*Estilos de texto*/
+
+.text-small{
+	font-size: 0.85em;
+}
+
+.text-large{
+	font-size: 1.25em;
+}
+.quote{
+	font-family: serif;
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+
+.bg-dark-translucent-50{background-color: rgba(0,0,0,0.5);}
+
+
+.floating-element{
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+#us{
+	background-image: url(../images/banner_001.png);
+}
+
+#enterprise{
+	background-image: url(../images/banner_002.png);
+}
