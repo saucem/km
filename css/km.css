@@ -19,7 +19,8 @@ body{
 .card{
 	border: none;
 	border-radius: 0;
-}
+	background-color: rgba(255,255,255,0.95);
+}	
 
 
 /*Estilos de texto*/
@@ -46,9 +47,13 @@ body{
 }
 
 #us{
-	background-image: url(../images/banner_001.png);
+	background-image: url(../images/teacher_and_students.jpg);
 }
 
 #enterprise{
 	background-image: url(../images/banner_002.png);
+}
+
+#individual{
+	background-image: url(../images/student.jpg);
 }
