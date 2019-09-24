@@ -2,8 +2,8 @@
 
 body{
     font-family: "Varela Round", sans-serif;
+    max-width: 100%;
 }
-
 
 .image-holder{
 	/*height: 60vh;*/
