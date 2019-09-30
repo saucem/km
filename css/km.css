@@ -5,8 +5,33 @@ body{
     max-width: 100%;
 }
 
+h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+}
+
+.navbar{
+	min-height: 8vh;
+}
+
+.navbar-toggler{
+	max-height: 6vh;
+	border:none;
+}
+
+.carousel-container{
+	overflow: hidden;
+	max-height: 88vh;
+}
+
+.carousel-item{
+	height: 88vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
 .image-holder{
-	/*height: 60vh;*/
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -21,6 +46,16 @@ body{
 	border-radius: 0;
 	background-color: rgba(255,255,255,0.95);
 }	
+
+.img-muted{
+	-webkit-filter: opacity(30%) grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: opacity(30%) grayscale(100%);
+}
+
+.img-muted:hover{
+	-webkit-filter: none; /* Safari 6.0 - 9.0 */
+  	filter: none;
+}
 
 
 /*Estilos de texto*/
@@ -38,6 +73,9 @@ body{
 	font-style: italic;
 }
 
+.color-white{color: white;}
+.color-purple{color: purple;}
+.color-yellow{color: yellow;}
 
 .bg-dark-translucent-50{background-color: rgba(0,0,0,0.5);}
 
@@ -45,6 +83,19 @@ body{
 .floating-element{
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
+
+#minimal-info{
+	height: 4vh;
+}
+
+
+#slide-01{background-image: url(../images/carousel/slide_01.png);}
+#slide-02{background-image: url(../images/carousel/slide_02.png);}
+#slide-03{background-image: url(../images/carousel/slide_03.png);}
+#slide-04{background-image: url(../images/carousel/slide_04.png);}
+#slide-05{background-image: url(../images/carousel/slide_05.png);}
+
+
 
 #us{
 	background-image: url(../images/teacher_and_students.jpg);
