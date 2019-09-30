@@ -8,19 +8,21 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/km.css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="row bg-light">
+    <div class="fluid-container">
+        <div class="row bg-light w-100 mx-0" id="minimal-info">
             <div class="col">
-                <p class="text-small text-muted text-right mt-1 mb-0">mail@servidor.com.ar | 11 6282-5250 | 11 5250-6282</p>
+                <p class="text-small text-muted text-right mt-1 mb-0 mr-2">info@km-idiomas.com.ar&nbsp;&nbsp;|&nbsp;&nbsp;11 7028-0331&nbsp;&nbsp;|&nbsp;&nbsp;11 4179-8224</p>
             </div>
         </div>
     </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <!--<div class="container">-->
             <a class="navbar-brand" href="#"><img src="images/km_logo_transparent_noreflex.png" alt="Logo KM Idiomas" class="d-inline-block" height=30></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mb-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
@@ -50,10 +52,10 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        <!--</div>-->
     </nav>
-    
-    <div class="container carousel-container mt-2">
+
+    <div class="fluid-container carousel-container">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -63,20 +65,68 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/banner/banner_001.png" class="d-block w-100" alt="Estudia Online">
+                <div class="carousel-item active" id="slide-01">
+                    <div class="d-flex h-100 align-items-center justify-content-end">
+                        <div class="col text-right">
+                            <h1 class="color-white display-4 font-weight-bold mr-3 d-none d-md-block">Aprovechá tu tiempo<br>al máximo<br><span class="color-yellow">Cursos Online</span></h1>
+                            <h1 class="color-white display-5 font-weight-bold mr-3 d-md-none">Aprovechá tu tiempo<br>al máximo<br><span class="color-yellow">Cursos Online</span></h1>
+                            <div class="col-8 col-md-4 ml-auto">
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Inglés</p>
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Portugués</p>
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Chino</p>
+                            </div>
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3 mb-3">+ info</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/banner/banner_002.png" class="d-block w-100" alt="Cursos In-Company">
+                <div class="carousel-item text-right" id="slide-02">
+                    <div class="d-flex h-100 align-items-center justify-content-end">
+                        <div class="col text-right">
+                            <h1 class="color-white display-4 font-weight-bold mr-3 d-none d-md-block">La mejor inversión en<br>Recursos Humanos</h1>
+                            <h1 class="color-white display-5 font-weight-bold mr-3 d-md-none">La mejor inversión en<br>Recursos Humanos</h1>
+                            <div class="col-8 col-md-4 ml-auto">
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Cursos In-Company</p>
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Auditorías</p>
+                            </div>
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/banner/banner_003.png" class="d-block w-100" alt="Cursos para viajeros">
+                <div class="carousel-item text-right" id="slide-03">
+                    <div class="d-flex h-100 align-items-center justify-content-end">
+                        <div class="col text-right">
+                            <h1 class="color-white display-4 font-weight-bold mr-3 d-none d-md-block">Adquirí autonomía.<br>Y hacelo <span class="font-italic">Online</span></h1>
+                            <h1 class="color-white display-5 font-weight-bold mr-3 d-md-none">Adquirí autonomía.<br>Y hacelo <span class="font-italic">Online</span></h1>
+                            <div class="col-8 col-md-4 ml-auto">
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Cursos para viajeros</p>
+                            </div>
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/banner/banner_004.png" class="d-block w-100" alt="Entrevistas de trabajo">
+                <div class="carousel-item text-right" id="slide-04">
+                    <div class="d-flex h-100 align-items-center justify-content-end">
+                        <div class="col text-right">
+                            <h1 class="color-white display-4 font-weight-bold mr-3 d-none d-md-block">Adquirí autonomía.<br>Y hacelo <span class="font-italic">Online</span></h1>
+                            <h1 class="color-white display-5 font-weight-bold mr-3 d-md-none">Adquirí autonomía.<br>Y hacelo <span class="font-italic">Online</span></h1>
+                            <div class="col-8 col-md-4 ml-auto">
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Entrevistas de trabajo</p>
+                            </div>
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/banner/banner_005.png" class="d-block w-100" alt="Cursos de conversación">
+                <div class="carousel-item text-right" id="slide-05">
+                    <div class="d-flex h-100 align-items-center justify-content-end">
+                        <div class="col text-right">
+                            <h1 class="color-white display-4 font-weight-bold mr-3 d-none d-md-block">Adquirí autonomía.<br>Y hacelo <span class="font-italic">Online</span></h1>
+                            <h1 class="color-white display-5 font-weight-bold mr-3 d-md-none">Adquirí autonomía.<br>Y hacelo <span class="font-italic">Online</span></h1>
+                            <div class="col-8 col-md-4 ml-auto">
+                                <p class="h2 color-white bg-dark-translucent-50 px-3 py-2 ml-auto rounded">Cursos de conversación</p>
+                            </div>
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -92,7 +142,7 @@
     
     <div class="row">
         <div class="col-2 d-sm-none fixed-bottom mb-4 ml-auto mr-2">
-            <a href="tel:+5401162825250"><img src="images/whatsapp_logo_greenandwhite.png" width="50" alt="WhatsApp" class="rounded-circle floating-element"></a>
+            <a href="https://wa.me/5491162825250?text=Quisiera%20que%20me%20asesoren%20acerca%20de%20los%20cursos%20disponibles"><img src="images/whatsapp_logo_greenandwhite.png" width="50" alt="WhatsApp" class="rounded-circle floating-element"></a>
         </div>
     </div>
     
@@ -103,22 +153,23 @@
                 <h1 class="text-center">Quiénes Somos</h1>
             </div>
         </div>
-        <div class="row justify-content-end image-holder" id="us">    
-            <div class="col-lg-4 card my-lg-5 mr-lg-5">
-                <img src="images/teacher_and_students.jpg" alt="Presentación de la clase" class="card-img-top d-lg-none">
-                <div class="card-body">
-                    <p class="text-justify">Somos un grupo docente con más de 25 años de experiencia en el <span class="font-weight-bold">área corporativa</span>. Nos especializamos en el diseño de cursos  y talleres de Chino, Inglés, Portugués y Español para extranjeros. Acercamos la capacitación a tu lugar de trabajo, acortando tiempos y maximizando los recursos para potenciar el rendimiento de tu gente.</p>
-                    <p class="text-justify">Creemos que el entorno lo es todo. Por eso nos enfocamos en crear un ambiente de distensión y comodidad para que cada cliente encuentre un espacio donde pueda descubrir y desarrollar sus propias estrategias de aprendizaje.</p>
-                </div>
-            </div>            
-        </div>
-        <div class="row mt-sm-5 justify-content-center align-items-center">
-            <div class="col-6 col-md-3">
-                <img src="images/learning_success_cropped.png" alt="Aprendizaje Exitoso" height="300">
+        
+        <div class="row justify-content-around">
+            <div class="col-md-4">
+                <p class="text-justify">
+                    Somos un grupo docente con más de 25 años de experiencia en el <span class="font-weight-bold">área corporativa</span>. Nos especializamos en el diseño de cursos  y talleres de Chino, Inglés, Portugués y Español para extranjeros. Acercamos la capacitación a tu lugar de trabajo, acortando tiempos y maximizando los recursos para potenciar el rendimiento de tu gente.
+                </p>
             </div>
-            <div class="col-6 col-md-3 text-right">
-                <p class="quote">“Tu éxito en el aprendizaje <br>de un idioma extranjero <br>es también el nuestro.”</p>
-                <p>KM Idiomas</p>
+            <div class="col-md-4">
+                <p class="text-justify">
+                    Creemos que el entorno lo es todo. Por eso nos enfocamos en crear un ambiente de distensión y comodidad para que cada cliente encuentre un espacio donde pueda descubrir y desarrollar sus propias estrategias de aprendizaje.
+                </p>
+            </div>
+            <div class="col-md-3 text-right">
+                <p class="quote">
+                    “Tu éxito en el aprendizaje <br>de un idioma extranjero <br>es también el nuestro.”
+                </p>
+                <p class="">KM Idiomas</p>
                 <a href="#" class="btn btn-success mt-2" role="button">Informate ahora</a>
             </div>
         </div>
@@ -128,17 +179,71 @@
                 <h1 class="text-center">Empresas</h1>
             </div>
         </div>
-        <div class="row justify-content-end image-holder" id="enterprise">    
-            <div class="col-lg-4 card my-lg-5 mr-lg-5">
-                <img src="images/banner_002.png" alt="Presentación de la clase" class="card-img-top d-lg-none">
-                <div class="card-body">
-                    <p class="text-justify">Nuestro objetivo es ser la mejor opción a la hora de decidir cómo capacitarte y capacitar a tu gente.<br>Diseñamos planes de capacitación basados en las necesidades y recursos de cada empresa, para optimizar el tiempo y desarrollar habilidades, maximizando el resultado de tu inversión.</p>
-                    <p class="text-justify">Desarrollamos un método de trabajo que nos permite ofrecer el resultado deseado a cada cliente. Muchas empresas han confiado en nosotros para posicionarse mejor a la hora de competir internacionalmente.</p>
-                    <p class="font-italic">La decisión de ampliar tu mercado está en tus manos.</p>
-                    <a href="#" class="btn btn-success mt-2 ml-auto" role="button">Contactarme</a>
-                </div>
-            </div>            
+        
+        <div class="row justify-content-around">
+            <div class="col-md-5 card mb-3"><img src="images/presentation_high_view.jpg" alt="Presentación de la clase" class="card-img-top"></div>
+            <div class="col-md-3 align-self-center">
+                <p class="text-justify">Nuestro objetivo es ser la mejor opción a la hora de decidir cómo capacitarte y capacitar a tu gente.<br>Diseñamos planes de capacitación basados en las necesidades y recursos de cada empresa, para optimizar el tiempo y desarrollar habilidades, maximizando el resultado de tu inversión.</p>
+            </div>
+            <div class="col-md-3 text-right align-self-center">
+                <p class="text-justify">Desarrollamos un método de trabajo que nos permite ofrecer el resultado deseado a cada cliente. Muchas empresas han confiado en nosotros para posicionarse mejor a la hora de competir internacionalmente.</p>
+                <p class="font-italic text-right">La decisión de ampliar tu mercado está en tus manos.</p>
+                <a href="#" class="btn btn-success mt-2" role="button">Contactarme</a>
+            </div>
         </div>
+
+        <div class="mt-5 pt-3 border border-success rounded">
+            <p class="lead text-center">Muchas empresas han confiado en nosotros para posicionarse mejor a la hora de competir internacionalmente.</p>
+        </div>
+        
+        <div class="row justify-content-center justify-content-md-around mt-2">
+            <div class="col-4 d-md-none card align-self-center">
+                <img src="images/msc_logo.png" alt="Logo MSC" class="card-img-top">
+            </div>
+            <div class="col-7 col-md-3 card">
+                <img src="images/msc_logo.png" alt="Logo MSC" class="card-img-top d-none d-md-block img-muted">
+                <div class="card-body">
+                    <p>
+                        <span class="font-weight-bold">MSC Argentina</span><br>
+                        Javier Luser<br>
+                        <span class="text-small">Gerente de Operaciones</span><br>
+                        <span class="text-muted text-small">+54 9 11 5300-7387</span>
+                    </p><br>
+                    <a href="https://www.msc.com/arg" class="btn btn-outline-secondary mx-auto">Sitio Web</a>
+                </div>
+            </div>
+            <div class="col-4 d-md-none card align-self-center">
+                <img src="images/tivit_synapsis_logo.png" alt="Logo Tivit Argentina" class="card-img-top">
+            </div>
+            <div class="col-7 col-md-3 card">
+                <img src="images/tivit_synapsis_logo.png" alt="Logo Tivit Argentina" class="card-img-top d-none d-md-block img-muted">
+                <div class="card-body">
+                    <p>
+                        <span class="font-weight-bold">Tivit Argentina</span><br>
+                        Sergio Gustavo Díaz<br>
+                        <span class="text-small">Gerente de infraestructura,<br>Outsourcing y Consultoría</span><br>
+                        <span class="text-muted text-small">+54 9 11 4021-8300 ext.217</span>
+                    </p>
+                    <a href="https://tivit.com/es" class="btn btn-outline-secondary mx-auto">Sitio Web</a>
+                </div>
+            </div>
+            <div class="col-4 d-md-none card align-self-center">
+                <img src="images/lb_logo.png" alt="Logo Laboratorio Brandsen" class="card-img-top">
+            </div>
+            <div class="col-7 col-md-3 card">
+                <img src="images/lb_logo.png" alt="Logo Laboratorio Brandsen" class="card-img-top d-none d-md-block img-muted">
+                <div class="card-body">
+                    <p>
+                        <span class="font-weight-bold">Laboratorio Brandsen</span><br>
+                        Elbio Telo<br>
+                        <span class="text-small">Responsable Administrativo</span><br>
+                        <span class="text-muted text-small">+54 9 11 4301-1007</span>
+                    </p><br>
+                    <a href="https://laboratoriobrandsen.com.ar" class="btn btn-outline-secondary mx-auto">Sitio Web</a>
+                </div>
+            </div>
+        </div>
+
 
 
         <div class="row my-5 justify-content-center">
@@ -146,15 +251,47 @@
                 <h1 class="text-center">Iniciativa Individual</h1>
             </div>
         </div>
-        <div class="row justify-content-start image-holder" id="individual">    
-            <div class="col-lg-4 card my-lg-5 ml-lg-5">
-                <img src="images/student.jpg" alt="Individuos" class="card-img-top d-lg-none">
-                <div class="card-body justify-content-end">
-                    <p class="text-justify">Adquirí autonomía. Escuchamos tus necesidades y ponemos toda nuestra experiencia a tu disposición para ofrecerte una propuesta personal para el aprendizaje de un nuevo idioma.</p>
-                    <p class="text-justify">Podemos ofrecerte un plan de estudios preparado para alcanzar tus objetivos, basándonos en tus conocimientos, posibilidades y disponibilidad horaria. Podemos asesorarte ahora.</p>
-                    <a href="#" class="btn btn-success mt-2 ml-auto" role="button">Contactarme</a>
-                </div>
-            </div>            
+        
+        <div class="row justify-content-start justify-content-md-around align-items-center mt-2" id="individual">
+            <div class="col-md-7 card my-3"><img src="images/online_student.png" alt="Estudiante en línea" class="card-img-top"></div>
+            <div class="col-md-5">
+                <p class="text-justify">Adquirí autonomía. Escuchamos tus necesidades y ponemos toda nuestra experiencia a tu disposición para ofrecerte una propuesta personal para el aprendizaje de un nuevo idioma.</p>
+                <p class="text-justify">Podemos ofrecerte un plan de estudios preparado para alcanzar tus objetivos, basándonos en tus conocimientos, posibilidades y disponibilidad horaria. Podemos asesorarte ahora.</p>
+                <a href="#" class="btn btn-success mt-2 ml-auto" role="button">Contactarme</a>
+            </div>
+        </div>
+        
+        <div class="row justify-content-start justify-content-md-around mt-5">
+            <div class="col-md-7 my-3 align-self-center">
+                <h3>Cursos para turistas</h3>
+                <p class="text-justify">Adquirí autonomía. Escuchamos tus necesidades y ponemos toda nuestra experiencia a tu disposición para ofrecerte una propuesta personal para el aprendizaje de un nuevo idioma.</p>
+                <p class="text-justify">Podemos ofrecerte un plan de estudios preparado para alcanzar tus objetivos, basándonos en tus conocimientos, posibilidades y disponibilidad horaria. Podemos asesorarte ahora.</p>                
+            </div>
+            <div class="col-md-5 card mb-md-5 text-center">
+                <img src="images/tourists.png" alt="Turistas" class="card-img-top">
+                <a href="#" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
+            </div>
+
+            <div class="col-md-7 my-3 align-self-center">
+                <h3>Entrevistas de trabajo</h3>
+                <p class="text-justify">Adquirí autonomía. Escuchamos tus necesidades y ponemos toda nuestra experiencia a tu disposición para ofrecerte una propuesta personal para el aprendizaje de un nuevo idioma.</p>
+                <p class="text-justify">Podemos ofrecerte un plan de estudios preparado para alcanzar tus objetivos, basándonos en tus conocimientos, posibilidades y disponibilidad horaria. Podemos asesorarte ahora.</p>                
+            </div>
+            <div class="col-md-5 card mb-md-5 text-center">
+                <img src="images/job_interview.png" alt="Entrevista de trabajo" class="card-img-top">
+                <a href="#" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
+            </div>
+
+            <div class="col-md-7 my-3 align-self-center">
+                <h3>Conversación</h3>
+                <p class="text-justify">Adquirí autonomía. Escuchamos tus necesidades y ponemos toda nuestra experiencia a tu disposición para ofrecerte una propuesta personal para el aprendizaje de un nuevo idioma.</p>
+                <p class="text-justify">Podemos ofrecerte un plan de estudios preparado para alcanzar tus objetivos, basándonos en tus conocimientos, posibilidades y disponibilidad horaria. Podemos asesorarte ahora.</p>                
+            </div>
+            <div class="col-md-5 card mb-md-5 text-center">
+                <img src="images/conversation.png" alt="Conversación" class="card-img-top">
+                <a href="#" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
+            </div>
+
         </div>
 
 
