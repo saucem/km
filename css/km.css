@@ -5,6 +5,12 @@ body{
     max-width: 100%;
 }
 
+footer{
+	height: 33vh;
+	background-color: rgb(128,128,128);
+	max-width: 100%;
+}
+
 h1{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
@@ -73,6 +79,9 @@ h1{
 	font-style: italic;
 }
 
+.bullet-circle{
+}
+
 .color-white{color: white;}
 .color-purple{color: purple;}
 .color-yellow{color: yellow;}
@@ -94,3 +103,7 @@ h1{
 #slide-03{background-image: url(../images/carousel/slide_03.png);}
 #slide-04{background-image: url(../images/carousel/slide_04.png);}
 #slide-05{background-image: url(../images/carousel/slide_05.png);}
+
+#english{background-image: url(../images/red_phone_booths.png); height: 33vh;}
+#portuguese{background-image: url(../images/ipanema_shore.png); height: 33vh;}
+#chinese{background-image: url(../images/red_chinese_lamps.png); height: 33vh;}
