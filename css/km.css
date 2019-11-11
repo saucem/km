@@ -6,8 +6,8 @@ body{
 }
 
 footer{
-	height: 33vh;
-	background-color: rgb(128,128,128);
+	min-height: 33vh;
+	background-color: rgb(64,64,64);
 	max-width: 100%;
 }
 
@@ -17,7 +17,7 @@ h1{
 }
 
 .navbar{
-	min-height: 8vh;
+	min-height: 12vh;
 }
 
 .navbar-toggler{
@@ -63,6 +63,23 @@ h1{
   	filter: none;
 }
 
+.profile-photo{
+	/*background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;*/
+	width: 100%;
+}
+
+.social-link{
+	/*box-shadow: 0 2px 1px rgba(0,0,0,.75)*/
+}
+
+.data-fiscal{
+	width: 100%;
+	height: auto;
+}
+
+
 
 /*Estilos de texto*/
 
@@ -74,6 +91,7 @@ h1{
 	font-size: 1.25em;
 }
 .quote{
+	color: purple;
 	font-family: serif;
 	font-size: 1.25em;
 	font-style: italic;
@@ -107,3 +125,5 @@ h1{
 #english{background-image: url(../images/red_phone_booths.png); height: 33vh;}
 #portuguese{background-image: url(../images/ipanema_shore.png); height: 33vh;}
 #chinese{background-image: url(../images/red_chinese_lamps.png); height: 33vh;}
+
+#kc-profile{background-image: url(../images/kc-profile-photo.jpg);}
