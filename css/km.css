@@ -2,6 +2,7 @@
 
 body{
     font-family: "Varela Round", sans-serif;
+    min-height: 100vh;
     max-width: 100%;
 }
 
@@ -16,6 +17,24 @@ h1{
 	font-weight: bold;
 }
 
+.hero{
+	min-height: 82vh;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.hero-container{
+	/*background-color: rgba(0,0,0,0.25);
+	border: solid 2px white;*/
+}
+
+.hero-text{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	text-shadow: 0 1px 10px rgba(0,0,0,0.25);
+}
+
 .navbar{
 	min-height: 12vh;
 }
@@ -23,6 +42,10 @@ h1{
 .navbar-toggler{
 	max-height: 6vh;
 	border:none;
+}
+
+.active{
+	border-bottom: 2px solid black;
 }
 
 .carousel-container{
@@ -125,5 +148,18 @@ h1{
 #english{background-image: url(../images/red_phone_booths.png); height: 33vh;}
 #portuguese{background-image: url(../images/ipanema_shore.png); height: 33vh;}
 #chinese{background-image: url(../images/red_chinese_lamps.png); height: 33vh;}
+
+#lpnosotros{background-image: url(../images/teacher_and_students.jpg);}
+#lpempresas{background-image: url(../images/presentation_high_view.jpg);}
+#lpindividuos{background-image: url(../images/online_student.png);}
+#lpingles{background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/red_phone_booths.png);}
+#lpchino{background-image: url(../images/red_chinese_lamps.png);}
+#chinese-article{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../images/texto-chino.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#lpservicios{background-image: url(../images/presentation.jpg);}
 
 #kc-profile{background-image: url(../images/kc-profile-photo.jpg);}
