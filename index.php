@@ -31,16 +31,16 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
-                    <li class="nav-item"><a href="empresas.html" class="nav-link">Empresas</a></li>
-                    <li class="nav-item"><a href="individuos.html" class="nav-link">Individuos</a></li>
+                    <li class="nav-item"><a href="#Nosotros" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#Empresas" class="nav-link">Empresas</a></li>
+                    <li class="nav-item"><a href="#Individuos" class="nav-link">Individuos</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Cursos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="ingles.html">Inglés/Portugués</a>
-                            <a class="dropdown-item" href="chino.html">Chino</a>
+                            <a class="dropdown-item" href="#Inglés/Portugués">Inglés/Portugués</a>
+                            <a class="dropdown-item" href="#Chino">Chino</a>
                         </div>
                     </li>                    
                     <li class="nav-item dropdown">
@@ -48,14 +48,14 @@
                         Servicios
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="servicios.html#auditorias">Auditorías</a>
-                            <a class="dropdown-item" href="servicios.html#talleres">Talleres</a>
-                            <a class="dropdown-item" href="servicios.html#traducciones">Traducciones</a>
-                            <a class="dropdown-item" href="servicios.html#interpretaciones">Interpretaciones</a>
+                            <a class="dropdown-item" href="#">Auditorías</a>
+                            <a class="dropdown-item" href="#">Talleres</a>
+                            <a class="dropdown-item" href="#">Traducciones</a>
+                            <a class="dropdown-item" href="#">Interpretaciones</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#Contacto">Contacto</a>
+                        <a class="nav-link" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -81,7 +81,7 @@
                                 <p class="h2 color-white py-1 ml-auto bullet-circle">Portugués</p>
                                 <p class="h2 color-white py-1 ml-auto bullet-circle">Chino</p>
                             </div>
-                            <!--<a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>-->
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                                 <p class="h1 color-white py-1 ml-auto">Cursos In-Company</p>
                                 <p class="h1 color-white py-1 ml-auto">Auditorías</p>
                             </div>
-                            <<!--<a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>-->
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                             <div class="col-8 col-md-4 ml-auto">
                                 <p class="h2 color-white py-1 ml-auto">Cursos para viajeros</p>
                             </div>
-                            <<!--<a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>-->
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                             <div class="col-8 col-md-4 ml-auto">
                                 <p class="h2 color-white py-1 ml-auto">Entrevistas de trabajo</p>
                             </div>
-                            <<!--<a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>-->
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                             <div class="col-8 col-md-4 ml-auto">
                                 <p class="h2 color-white py-1 ml-auto">Cursos de conversación</p>
                             </div>
-                            <<!--<a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>-->
+                            <a href="#" class="btn btn-lg btn-success color-white mr-3">+ info</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                     “Tu éxito en el aprendizaje <br>de un idioma extranjero <br>es también el nuestro.”
                 </p>
                 <p class="">KM Idiomas</p>
-                <a href="nosotros.html#" class="btn btn-success mt-2" role="button">Informate ahora</a>
+                <a href="#" class="btn btn-success mt-2" role="button">Informate ahora</a>
             </div>
         </div>
 
@@ -250,7 +250,7 @@
             </div>
         </div>
 
-        <div class="row my-3 justify-content-center" id="Auditorias">
+        <div class="row my-3 justify-content-center">
             <div class="col-6">
                 <h2 class="text-center">Auditorías</h2>
             </div>
@@ -267,7 +267,7 @@
         
         <div class="row justify-content-center mb-md-3">
             <div class="col-2">
-                <a href="index.html#contacto" class="btn btn-success mt-2" role="button">Contactarme</a>
+                <a href="#" class="btn btn-success mt-2" role="button">Contactarme</a>
             </div>
         </div>
 
@@ -286,7 +286,7 @@
                     “Cuando el alumno está listo,<br>aparece el maestro.”
                 </p>
                 <p class="text-right">Proverbio Zen</p>
-                <a href="index.html#contacto" class="btn btn-success mt-2 ml-auto" role="button">Contactarme</a>
+                <a href="#" class="btn btn-success mt-2 ml-auto" role="button">Contactarme</a>
             </div>
         </div>
         
@@ -298,7 +298,7 @@
             </div>
             <div class="col-md-5 card mb-md-5 text-center">
                 <img src="images/tourists.png" alt="Turistas" class="card-img-top">
-                <a href="individuos.html#turistas" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
+                <a href="#" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
             </div>
 
             <div class="col-md-7 my-3 align-self-center">
@@ -308,7 +308,7 @@
             </div>
             <div class="col-md-5 card mb-md-5 text-center">
                 <img src="images/job_interview.png" alt="Entrevista de trabajo" class="card-img-top">
-                <a href="individuos.html#entrevistas" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
+                <a href="#" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
             </div>
 
             <div class="col-md-7 my-3 align-self-center">
@@ -318,7 +318,7 @@
             </div>
             <div class="col-md-5 card mb-md-5 text-center">
                 <img src="images/conversation.png" alt="Conversación" class="card-img-top">
-                <a href="individuos.html#conversacion" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
+                <a href="#" class="btn btn-info mt-n3 mx-auto" role="button">+ info</a>
             </div>
         </div>
 
@@ -329,7 +329,7 @@
         </div>
 
         <div class="row justify-content-around align-items-stretch">
-            <div class="col-md-5 d-flex flex-column justify-content-between mb-3" id="InglésPortugués">
+            <div class="col-md-5 d-flex flex-column justify-content-between mb-3">
                 <div class="">
                     <h2 class="text-center">Inglés/Portugués</h2>
                 </div>
@@ -339,11 +339,11 @@
                     <p class="text-justify card-txt">En el armado de los cursos contemplamos saberes previos, número de cursantes, carga horaria semanal, necesidades, objetivos y disponibilidad horaria.</p>
                 </div>
                 <div class="text-center mb-5 mb-md-0">
-                    <a href="ingles.html" class="btn btn-success mx-auto">+info</a>
+                    <a href="" class="btn btn-success mx-auto">+info</a>
                 </div>
             </div>
 
-            <div class="col-md-5 d-flex flex-column justify-content-between mb-3" id="Chino">
+            <div class="col-md-5 d-flex flex-column justify-content-between mb-3">
                 <div class="">
                     <h2 class="text-center">Chino</h2>
                 </div>
@@ -353,59 +353,22 @@
                     <p class="text-justify card-txt">Las características del idioma Chino requieren un docente especialmente capacitado para su enseñanza. Conocer aspectos básicos de Chino constituye un desafío; es una herramienta que puede marcar la diferencia.<br>Contamos con docentes nativos y no nativos. Podemos asesorarte.</p>
                 </div>
                 <div class="text-center mb-5 mb-md-0">
-                    <a href="chino.html" class="btn btn-success mx-auto">+info</a>
+                    <a href="" class="btn btn-success mx-auto">+info</a>
                 </div>
             </div>
         </div>
 
-        <div class="row justify-content-center my-3 my-md-5" id="contacto">
+        <div class="row justify-content-center my-3 my-md-5" id="Contacto">
             <div class="col col-md-6 text-center">
                 <h1>Contacto</h1>
             </div>
         </div>
 
         <div class="row justify-content-center align-items-center">
-            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                <p class="">
-                    Completá el formulario con tus datos y en breve nos estaremos poniendo
-                    en contacto para asesorarte. Podemos ayudarte a alcanzar el nivel que
-                    necesitás para competir en el mercado laboral.
-                </p>
-            </div>
-            <form class="col-md-8 form-container" action="formmail_v7.php" method="POST" enctype="application/x-www-form-urlencoded">
-                <!-- Inicio - Conjunto de elementos [input] con datos de configuración -->
-                <input type="hidden" name="recipient" value="jk98URt213YYñ50f, Ylñq901ggThw4zpÑ">
-                <input type="hidden" name="mail_newline" value="2">
-                <input type="hidden" name="subject" value="Consulta enviada desde formulario Web">
-                <input type="hidden" name="gmt_offset" value="-2">
-                <input type="hidden" name="alias" value="realname=Nombre, email=Correo electronico, question=Consulta, submit=Pedido">
-                <input type="hidden" name="alias_method" value="both">
-                <input type="hidden" name="redirect" value="sendok.html">
-                <!-- Fin - Conjunto de elementos [input] con datos de configuración -->
-                <div class="form-group col">
-                    <label for="realname">Nombre y Apellido</label>
-                    <input type="text" class="form-control" id="pricing-name"  name="realname" placeholder="" required="">
-                </div>
-                <div class="form-group col">
-                    <label for="email">Dirección de correo electrónico</label>
-                    <input type="email" class="form-control" id="pricing-email"  name="email" aria-describedby="pricing-email-help" placeholder="" required="">
-                    <small id="pricing-email-help" class="form-text text-muted">Nunca compartiremos tus datos con nadie.</small>
-                </div>
-
-                <div class="form-group col">
-                    <label for="pricing-request">¿Cómo podemos ayudarte?</label>
-                    <textarea class="form-control" id="question"  name="question" rows="4" required=""></textarea>
-                </div>
-
-                <div class="form-group row justify-content-center mb-5">
-                    <button type="submit" class="col-6 col-md-4 btn btn-warning level-1">Enviar!</button>
-                </div>
-            </form>
+                        
         </div>
 
-        <div class="mt-3"><hr></div>
-
-        <div class="row justify-content-around my-5">
+        <div class="row justify-content-around mb-5">
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-4 col-md-3 justify-content-center align-items-center">
@@ -462,32 +425,30 @@
             </div>
 
         </div>
-        <div class="row align-items-center justify-content-between mt-3">
+        <div class="row align-items-center mt-3">
             <div class="col-2 col-md-1 justify-content-center align-items-between">
                 <img src="images/km-isologo.png" alt="Logo KM Idiomas" class="w-100 d-none d-md-block">
                 <a href="http://qr.afip.gob.ar/?qr=FL38AAmkWEaszoJjpjRrXw,," class="d-block text-center"><img src="images/data-fiscal.png" alt="Nuestros datos fiscales" class="mt-2 data-fiscal"></a>
 
             </div>
-            <div class="col-6 col-md-4 offset-md-2 justify-content-center">
+            <div class="col-8 col-md-10 justify-content-center">
                 <nav class="">
                     <ul class="navbar-nav text-light text-center">
-                        <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
-                        <li class="nav-item"><a href="empresas.html" class="nav-link">Empresas</a></li>
-                        <li class="nav-item"><a href="individuos.html" class="nav-link">Individuos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#Nosotros" class="nav-link">Nosotros</a></li>
+                        <li class="nav-item"><a href="#Empresas" class="nav-link">Empresas</a></li>
+                        <li class="nav-item"><a href="#Individuos" class="nav-link">Individuos</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="d-none d-md-block col-md-3 text-right">
-                <p class="text-light">11 7028-0331</p>
-                <p class="text-light">11 4179-8224</p>
-                <p class="text-light">info@km-idiomas.com.ar</p>
+            <div class="d-none d-md-block col-md-1 justify-content-center">
+                <p class="text-light">Otros datos</p>
             </div>
         </div>
     </div>
     <div class="row mt-2 justify-content-center mt-3 mx-0 w-100">
         <div class="col text-center">
-            <p class="text-small text-muted m-0 ">&copy;KM Idiomas 2020<br></p>
+            <p class="text-small text-muted m-0 ">&copy;KM Idiomas 2019<br></p>
         </div>
     </div>
 </footer>
