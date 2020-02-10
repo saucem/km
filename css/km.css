@@ -154,7 +154,7 @@ h1{
 #portuguese{background-image: url(../images/ipanema_shore.png); height: 33vh;}
 #chinese{background-image: url(../images/red_chinese_lamps.png); height: 33vh;}
 
-#lpnosotros{background-image: url(../images/teacher_and_students.jpg);}
+#lpnosotros{background-image: url(../images/teacher_and_students.jpg); background-position: center top;}
 #lpempresas{background-image: url(../images/presentation_high_view.jpg);}
 #lpindividuos{background-image: url(../images/online_student.png);}
 #lpingles{background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/red_phone_booths.png);}
