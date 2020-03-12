@@ -40,6 +40,14 @@ h1{
 	text-shadow: 0 1px 10px rgba(0,0,0,0.5);
 }
 
+.brand-holder{
+	height: 25vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
 .navbar{
 	min-height: 12vh;
 }
@@ -145,20 +153,25 @@ h1{
 
 
 #slide-01{background-image: url(../images/carousel/slide_01.png);}
-#slide-02{background-image: url(../images/carousel/slide_02.png);}
+/*#slide-02{background-image: url(../images/carousel/slide_02.png);}*/
+#slide-02{background-image: url(../images/carousel/slide_02_01.png);}
 #slide-03{background-image: url(../images/carousel/slide_03.png);}
 #slide-04{background-image: url(../images/carousel/slide_04.png);}
 #slide-05{background-image: url(../images/carousel/slide_05.png);}
 
-#english{background-image: url(../images/red_phone_booths.png); height: 33vh;}
-#portuguese{background-image: url(../images/ipanema_shore.png); height: 33vh;}
+#english{background-image: url(../images/ingles.jpg); height: 33vh;}
+#portuguese{background-image: url(../images/portugues.jpg); height: 33vh;}
 #chinese{background-image: url(../images/red_chinese_lamps.png); height: 33vh;}
 
-#lpnosotros{background-image: url(../images/teacher_and_students.jpg); background-position: center top;}
-#lpempresas{background-image: url(../images/presentation_high_view.jpg);}
+/*#lpnosotros{background-image: url(../images/teacher_and_students.jpg); background-position: center top;}*/
+#lpnosotros{background-image: url(../images/incompany.jpg); background-position: center top;}
+/*#lpempresas{background-image: url(../images/presentation_high_view.jpg);}*/
+#lpempresas{background-image: url(../images/charlaempresa.jpg); background-position: center top;}
 #lpindividuos{background-image: url(../images/online_student.png);}
-#lpingles{background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/red_phone_booths.png);}
-#lpportugues{background-image: url(../images/ipanema_shore.jpg);}
+/*#lpingles{background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/red_phone_booths.png);}*/
+#lpingles{background-image: /*linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),*/ url(../images/ingles.jpg);}
+/*#lpportugues{background-image: url(../images/ipanema_shore.jpg);}*/
+#lpportugues{background-image: url(../images/portugues.jpg);}
 #lpchino{background-image: url(../images/red_chinese_lamps.png);}
 #chinese-article{
 	/*
@@ -170,4 +183,31 @@ h1{
 }
 #lpservicios{background-image: url(../images/presentation.jpg);}
 
+#aa{background-image: url(../images/clients/aa.png);}
+#lb{background-image: url(../images/clients/lb.png);}
+#aqb{background-image: url(../images/clients/tivit.png);}
+#cynsa{background-image: url(../images/clients/cynsa.png);}
+#msc{background-image: url(../images/clients/msc.png);}
+#ib{background-image: url(../images/clients/ib.png);}
+#att{background-image: url(../images/clients/att.png);}
+#cc{background-image: url(../images/clients/cocacola.png);}
+#tl{background-image: url(../images/clients/temislostalo.png);}
+#chr{background-image: url(../images/clients/chrhansen.png);}
+#md{background-image: url(../images/clients/ministeriodefensa.png);}
+#bc{background-image: url(../images/clients/citi.png);}
+#dn{background-image: url(../images/clients/danone.png);}
+#ur{background-image: url(../images/clients/dummy_1.png);}
+#ea{background-image: url(../images/clients/elster.jpg);}
+#pc{background-image: url(../images/clients/pcsc.png);}
+
+
+
 #kc-profile{background-image: url(../images/kc-profile-photo.jpg);}
+
+@media only screen and (max-width: 767px) {
+.hero{
+    background-size: contain;
+    width: 100%;
+    min-height: 50vh;
+  }
+}
