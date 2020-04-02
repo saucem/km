@@ -166,7 +166,7 @@ h1{
 /*#lpnosotros{background-image: url(../images/teacher_and_students.jpg); background-position: center top;}*/
 #lpnosotros{background-image: url(../images/incompany.jpg); background-position: center top;}
 /*#lpempresas{background-image: url(../images/presentation_high_view.jpg);}*/
-#lpempresas{background-image: url(../images/charlaempresa.jpg); background-position: center top;}
+#lpempresas{background-image: url(../images/charlaempresa.jpg); background-position: left top;}
 #lpindividuos{background-image: url(../images/online_student.png);}
 /*#lpingles{background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/red_phone_booths.png);}*/
 #lpingles{background-image: /*linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),*/ url(../images/ingles.jpg);}
@@ -181,6 +181,7 @@ h1{
 	background-position: top center;
 	*/
 }
+
 #lpservicios{background-image: url(../images/presentation.jpg);}
 
 #aa{background-image: url(../images/clients/aa.png);}
@@ -200,7 +201,18 @@ h1{
 #ea{background-image: url(../images/clients/elster.jpg);}
 #pc{background-image: url(../images/clients/pcsc.png);}
 
+#okenvio{
+	min-height: 88vh;
+	background-color: #58ceea;
+}
 
+#mailbox{
+	height: 50vh;
+	background-image: url(../images/mailbox.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 
 #kc-profile{background-image: url(../images/kc-profile-photo.jpg);}
 
