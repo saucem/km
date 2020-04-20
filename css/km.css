@@ -133,6 +133,10 @@ h1{
 	font-style: italic;
 }
 
+.developer{
+	color: #7fffd4;
+}
+
 .bullet-circle{
 }
 
@@ -183,6 +187,11 @@ h1{
 }
 
 #lpservicios{background-image: url(../images/presentation.jpg);}
+
+#mv_img{
+	transform: rotate(30deg);
+}
+
 
 #aa{background-image: url(../images/clients/aa.png);}
 #lb{background-image: url(../images/clients/lb.png);}
