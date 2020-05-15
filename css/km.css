@@ -15,7 +15,7 @@ footer{
 	max-width: 100%;
 }
 
-h1{
+h1, h2, h3{
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 }
@@ -115,8 +115,22 @@ h1{
 	height: auto;
 }
 
+/*Estilos de color*/
 
+.bg-purple{
+	background-color: purple;
+}
 
+.btn-teal{
+	background-color: #128C7E;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.btn-teal:hover{
+	transform: scale(1.05);
+	color: white;
+}
 /*Estilos de texto*/
 
 .text-small{
@@ -170,13 +184,13 @@ h1{
 /*#lpnosotros{background-image: url(../images/teacher_and_students.jpg); background-position: center top;}*/
 #lpnosotros{background-image: url(../images/incompany.jpg); background-position: center top;}
 /*#lpempresas{background-image: url(../images/presentation_high_view.jpg);}*/
-#lpempresas{background-image: url(../images/charlaempresa.jpg); background-position: left top;}
-#lpindividuos{background-image: url(../images/online_student.png);}
+#lpempresas{background-image: url(../images/writing_on_a_board.jpg); background-position: center top;}
+#lpindividuos{background-image: url(../images/online_student.png); background-position: center top;}
 /*#lpingles{background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/red_phone_booths.png);}*/
 #lpingles{background-image: /*linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),*/ url(../images/ingles.jpg);}
 /*#lpportugues{background-image: url(../images/ipanema_shore.jpg);}*/
 #lpportugues{background-image: url(../images/portugues.jpg);}
-#lpchino{background-image: url(../images/red_chinese_lamps.png);}
+#lpchino{background-image: url(../images/red_chinese_lamps.png); background-position: center top}
 #chinese-article{
 	/*
 	background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../images/texto-chino.png);
@@ -186,7 +200,7 @@ h1{
 	*/
 }
 
-#lpservicios{background-image: url(../images/presentation.jpg);}
+#lpservicios{background-image: url(../images/presentation.jpg); background-position: center top;}
 
 #mv_img{
 	transform: rotate(30deg);
