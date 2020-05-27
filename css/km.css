@@ -172,10 +172,10 @@ h1, h2, h3{
 
 #slide-01{background-image: url(../images/carousel/slide_01.png);}
 /*#slide-02{background-image: url(../images/carousel/slide_02.png);}*/
-#slide-02{background-image: url(../images/carousel/slide_02_01.png);}
-#slide-03{background-image: url(../images/carousel/slide_03.png);}
+#slide-02{background-image: url(../images/carousel/slide_02.jpg);}
+#slide-03{background-image: url(../images/carousel/slide_03.jpg);}
 #slide-04{background-image: url(../images/carousel/slide_04.png);}
-#slide-05{background-image: url(../images/carousel/slide_05.png);}
+#slide-05{background-image: url(../images/carousel/slide_05.jpg);}
 
 #english{background-image: url(../images/ingles.jpg); height: 33vh;}
 #portuguese{background-image: url(../images/portugues.jpg); height: 33vh;}
@@ -220,7 +220,7 @@ h1, h2, h3{
 #md{background-image: url(../images/clients/ministeriodefensa.png);}
 #bc{background-image: url(../images/clients/citi.png);}
 #dn{background-image: url(../images/clients/danone.png);}
-#ur{background-image: url(../images/clients/ul.png);}
+#ur{background-image: url(../images/clients/ul.jpg);}
 #ea{background-image: url(../images/clients/elster.jpg);}
 #pc{background-image: url(../images/clients/pcsc.png);}
 
