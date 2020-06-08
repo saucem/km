@@ -21,7 +21,7 @@ h1, h2, h3{
 }
 
 .hero{
-	min-height: 70vh;
+	min-height: 82vh;
 	background-size: cover;
 	/*background-size: contain;*/
 	/*background-position: center top;*/
@@ -63,7 +63,7 @@ h1, h2, h3{
 
 .carousel-container{
 	overflow: hidden;
-	max-height: 88vh;
+	max-height: 75vh;
 }
 
 .carousel-item{
@@ -240,9 +240,12 @@ h1, h2, h3{
 #kc-profile{background-image: url(../images/kc-profile-photo.jpg);}
 
 @media only screen and (max-width: 576px){
-.hero{
-    background-size: contain;
-    width: 100%;
-    min-height: 50vh;
-  }
+	.hero{
+	    background-size: contain;
+	    width: 100%;
+	    min-height: 50vh;
+	}
+	.carousel-container{
+		max-height: 50vh;
+	}
 }
