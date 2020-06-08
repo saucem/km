@@ -243,7 +243,7 @@ h1, h2, h3{
 	.hero{
 	    background-size: contain;
 	    width: 100%;
-	    min-height: 50vh;
+	    min-height: 33vh;
 	}
 	.hero-container{
 		/*height: 50vh;*/
