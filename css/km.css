@@ -134,7 +134,7 @@ h1, h2, h3{
 /*Estilos de texto*/
 
 .text-small{
-	font-size: 0.85em;
+	font-size: 0.70em;
 }
 
 .text-large{
@@ -145,6 +145,10 @@ h1, h2, h3{
 	font-family: serif;
 	font-size: 1.25em;
 	font-style: italic;
+}
+
+.carousel-container h3, p{
+	text-shadow: 0px 0px 2px, #000;
 }
 
 .developer{
