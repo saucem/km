@@ -241,9 +241,9 @@ h1, h2, h3{
 
 @media only screen and (max-width: 768px){
 	.hero{
-	    background-size: contain;
+	    /*background-size: contain;*/
 	    width: 100%;
-	    min-height: 33vh;
+	    min-height: 40vh;
 	}
 	.hero-container{
 		/*height: 50vh;*/
