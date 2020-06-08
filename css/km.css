@@ -239,7 +239,7 @@ h1, h2, h3{
 
 #kc-profile{background-image: url(../images/kc-profile-photo.jpg);}
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 768px){
 	.hero{
 	    background-size: contain;
 	    width: 100%;
