@@ -67,7 +67,7 @@ h1, h2, h3{
 }
 
 .carousel-item{
-	max-height: 82vh;
+	height: 82vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -247,5 +247,8 @@ h1, h2, h3{
 	}
 	.carousel-container{
 		max-height: 50vh;
+	}
+	.carousel-item{
+	height: 50vh;
 	}
 }
