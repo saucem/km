@@ -243,12 +243,12 @@ h1, h2, h3{
 	.hero{
 	    background-size: contain;
 	    width: 100%;
-	    min-height: 50vh;
+	    min-height: 65vh;
 	}
 	.carousel-container{
-		max-height: 50vh;
+		max-height: 65vh;
 	}
 	.carousel-item{
-	height: 50vh;
+	height: 65vh;
 	}
 }
