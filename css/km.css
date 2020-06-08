@@ -63,11 +63,11 @@ h1, h2, h3{
 
 .carousel-container{
 	overflow: hidden;
-	max-height: 75vh;
+	max-height: 82vh;
 }
 
 .carousel-item{
-	height: 88vh;
+	max-height: 82vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
